@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+._conteiner {
+   max-width: 1440px;
+   margin: 0px auto;
+}
+
+.header-wrapper {
+   display: flex;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   height: 56px;
+}
+
+.nav-wrapper {
+   display: flex;
+   align-items: center;
+}
+
+.nav-list {
+   display: flex;
+   margin-left: 188px;
+   /* cursor: pointer; */
+}
+
+.nav-list > li {
+   list-style-type: none;
+   margin-right: 28px;
+   cursor: pointer;
+}
+
+.logo {
+   margin-left: 97px;
+   margin-right: 380px;
+   cursor: pointer;
+}
+
+.links {
+   display: flex;
+}
+
+.links img {
+   margin-right: 20px;
+   cursor: pointer;
+}
+
+.main-page {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 554px;
+   background-color: #F0EFEB;
+}
+
+.title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 60px;
+   margin-left: 110px;
+}
+
+.text {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 24px;
+   margin-left: 110px;
+   margin-top: 42px;
+}
+
+.button {
+   margin-left: 110px;
+   margin-top: 26px;
+   background: #000;
+   border-radius: 100px;
+   width: 130px;
+   height: 36px;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   border: none;
+   cursor: pointer;
+}
+
+.main-img {
+   padding-left: 90px;
+}
+
+.guides-page {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+.guides-title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 36px;
+   padding-top: 60px;
+}
+
+.guides-text1 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   padding-top: 27px;
+}
+
+.guides-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   padding-top: 47px;
+}
+
+.best-sellers {
+   margin-bottom: 52px;
+}
+
+.best-sellers-title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 36px;
+   padding-top: 88px;
+}
+
+.cards {
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 248px;
+}
+
+/* мужик француз блок с картой и подписью к ней */
+
+.french-culture {
+   text-align: center;
+}
+
+.french-man-text1 {
+   padding-top: 27px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+}
+
+.french-man-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   padding-top: 17px;
+}
+
+.french-man-text3 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+   padding-top: 10px;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+
+/* женщина француженка блок с картой и подписью к ней */
+
+.french-people {
+   text-align: center;
+}
+
+.french-women-text1 {
+   padding-top: 27px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+}
+
+.french-women-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   padding-top: 17px;
+}
+
+.french-women-text3 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+   padding-top: 10px;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+
+/* женщина немка блок с картой и подписью к ней */
+
+.german-culture {
+   text-align: center;
+}
+
+.german-women-text1 {
+   padding-top: 27px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+}
+
+.german-women-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 17px;
+   padding-top: 17px;
+}
+
+.german-women-text3 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+   padding-top: 10px;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+/* ------------section with french women---------------------- */
+.people {
+   display: flex;
+   height: 652px;
+   background: rgba(204, 204, 204, 0.3);
+}
+
+.people-img {
+   margin-left: 188px;
+   margin-top: 76px;
+}
+
+.people-wrapper {
+   margin-left: 50px;
+   margin-top: 146px;
+}
+
+.people-wrapper-title {
+   font-family: 'Roboto', sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.people-wrapper-text {
+   margin-top: 31px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 36px;
+   font-weight: 400;
+}
+
+.people-wrapper-text1 {
+   margin-top: 31px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 17px;
+   text-decoration: underline;
+   font-weight: 700;
+   cursor: pointer;
+}
+
+/* ------------section with culture men---------------------- */
+.culture {
+   display: flex;
+   justify-content: flex-end;
+   height: 652px;
+   background: rgba(204, 204, 204, 0.6);
+}
+
+.culture-img {
+   margin-right: 188px;
+   margin-top: 76px;
+}
+
+.culture-wrapper {
+   margin-right: 50px;
+   margin-top: 168px;
+   text-align: right;
+}
+
+.culture-wrapper-title {
+   font-family: 'Roboto', sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.culture-wrapper-text {
+   margin-top: 31px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 36px;
+   font-weight: 400;
+}
+
+.culture-wrapper-text1 {
+   margin-top: 31px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 17px;
+   text-decoration: underline;
+   font-weight: 700;
+   cursor: pointer;
+}
+
+/* ------------section with german women---------------------- */
+.power {
+   display: flex;
+   height: 652px;
+   background: rgba(204, 204, 204, 0.3);
+}
+
+.power-img {
+   margin-left: 188px;
+   margin-top: 76px;
+}
+
+.power-wrapper {
+   margin-left: 50px;
+   margin-top: 168px;
+}
+
+.power-wrapper-title {
+   font-family: 'Roboto', sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.power-wrapper-text {
+   margin-top: 31px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 36px;
+   font-weight: 400;
+}
+
+.power-wrapper-text1 {
+   margin-top: 39px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 17px;
+   text-decoration: underline;
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.some-of-uniqe {
+   height: 344px;
+   display: flex;
+   justify-content: center;
+}
+
+.some-of-uniqe-text {
+   padding-top: 190px;
+   padding-bottom: 67.6px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 36px;
+   font-weight: 400;
+   text-align: center;
+}
+
+/* -----------------------section with round------------------- */
+.round-wrapper {
+   height: 444px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+
+/* ------column 1-------- */
+
+.round-wrapper-column1-element1-round {
+   width: 70px;
+   height: 70px; 
+   background: #21F7EC;
+   border-radius: 35px;
+   margin-left: 100px;
+}
+
+.round-wrapper-column1-element1-text {
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+   padding-bottom: 110px;
+}
+
+.round-wrapper-column1-element2-round {
+   width: 70px;
+   height: 70px; 
+   background: #D38F62;
+   border-radius: 35px;
+   margin-left: 100px;
+}
+
+.round-wrapper-column1-element2-text {
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+}
+
+
+/* ------column 2-------- */
+
+.round-wrapper-column2 {
+   flex-direction: column;
+}
+
+.round-wrapper-column2-element1-round {
+   width: 70px;
+   height: 70px; 
+   background: #33D3BC;
+   border-radius: 35px;
+   margin-left: 50px;
+}
+
+.round-wrapper-column2-element1-text {
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+   padding-bottom: 110px;
+}
+
+.round-wrapper-column2-element2-round {
+   width: 70px;
+   height: 70px; 
+   background: #F94C43;
+   border-radius: 35px;
+   margin-left: 50px;
+}
+
+.round-wrapper-column2-element2-text {
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+}
+
+
+/* ------column 3-------- */
+
+.round-wrapper-column3 {
+   flex-direction: column;
+}
+
+.round-wrapper-column3-element1-round {
+   width: 70px;
+   height: 70px; 
+   background: #33D3BC;
+   border-radius: 35px;
+   margin-left: 65px;
+}
+
+.round-wrapper-column3-element1-text {
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+   padding-bottom: 110px;
+}
+
+.round-wrapper-column3-element2-round {
+   width: 70px;
+   height: 70px; 
+   background: #F94C43;
+   border-radius: 35px;
+   margin-left: 65px;
+}
+
+.round-wrapper-column3-element2-text {
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+}
+
+.each-thalby {
+   display: flex;
+   justify-content: center;
+}
+
+.each-thalby-text {
+   font-family: 'Roboto', sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+   text-align: center;
+   margin-top: 110px;
+   margin-bottom: 100px;
+}
+
+.backround-photo {
+   height: 351px;
+   background: linear-gradient(to top, #F0F0F0 50%, rgb(255, 255, 255) 50%);
+   z-index: 1;
+}
+
+.backround-photo-gradient {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.discover {
+   height: 317px;
+   background-color: #F0F0F0;
+}
+.discover-wrapper {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.discover-wrapper-element1-text1 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 22px;
+   font-weight: 700;
+   text-align: center;
+   padding-top: 35px;
+}
+
+.discover-wrapper-element1-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
+   padding-top: 40px;
+}
+
+.discover-wrapper-element1-text3 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   text-align: center;
+   text-decoration: underline;
+   margin-top: 44px;
+   cursor: pointer;
+}
+
+.discover-wrapper-element2-text1 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 22px;
+   font-weight: 700;
+   text-align: center;
+   padding-top: 35px;
+}
+
+.discover-wrapper-element2-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
+   padding-top: 40px;
+}
+
+.discover-wrapper-element2-text3 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   text-align: center;
+   text-decoration: underline;
+   margin-top: 44px;
+   cursor: pointer;
+}
+
+.discover-wrapper-element3-text1 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 22px;
+   font-weight: 700;
+   text-align: center;
+   padding-top: 35px;
+}
+
+.discover-wrapper-element3-text2 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
+   padding-top: 40px;
+}
+
+.discover-wrapper-element3-text3 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   text-align: center;
+   text-decoration: underline;
+   margin-top: 44px;
+   cursor: pointer;
+}
